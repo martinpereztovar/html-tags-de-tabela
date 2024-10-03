@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabela{
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    & .cabecalho{
+        background-color: black;
+        color: white;
+    }
+    & tr:nth-child(odd){
+        background-color: #00000020;
+    }
+}
